@@ -93,15 +93,19 @@
 }
 
 .container2{
-    width:45%;
+    width:48%;
     margin: auto;
     display: flex !important;
     justify-content:space-between !important;
 }
 
 .form-control {
-    width: 290px !important;
+    width: 300px !important;
     margin-top: 10px;
+}
+
+#titulo{
+    font-size: 12px !important;
 }
 #hablar{
     width:100% !important;
