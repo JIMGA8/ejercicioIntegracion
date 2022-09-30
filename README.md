@@ -1,1 +1,1 @@
-ejercicio de integracion de Codo a Codo
+ejercicio de integracion de Codo a Codo el mismo fue realizado para una resolucion de pantalla de 1366x768
