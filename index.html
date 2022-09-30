@@ -4,9 +4,8 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet"> 
     </head>
     <body>
       <header>
@@ -115,19 +114,19 @@
           </div>
         </div>
         <br>
-        <form>
+        <form class="formulario">
           <p class="oradores2">CONVIÉRTE EN UN</p>
           <h1 class="oradores2">ORADOR</h1>
           <p class="oradores2">Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de qué quieres hablar!</p>
-          <div class="container2">
-            <input type="email" class="form-control" id="nombre" placeholder="Nombre">
-            <input type="email" class="form-control" id="apellido" placeholder="Apellido">
+          <div class="container2 mb-2 mt-2">
+            <input type="email" class=" form-control mr-1" id="nombre" placeholder="Nombre">
+            <input type="email" class=" form-control ml-1" id="apellido" placeholder="Apellido">
           </div>
-          <div class="container2">
+          <div class="container2 mb-2">
             <textarea class="form-control" id="hablar" placeholder="Sobre qué quieres hablar?"></textarea>
           </div>
           <div id="titulo"class="form-text container2">Recuerda incluir un titulo para tu charla</div>
-          <button id="enviar" type="button" class="btn btn-success container2">Enviar</button>
+          <button id="enviar" type="button" class="btn btn-success">Enviar</button>
         </form>
       </main>
       <br>

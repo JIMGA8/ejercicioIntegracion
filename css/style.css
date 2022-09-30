@@ -97,16 +97,17 @@
     border:2px solid rgb(145, 145, 145);
 }
 
-.container2{
-    width:48%;
+.formulario{
+    width: 50%;
     margin: auto;
-    display: flex !important;
-    justify-content:space-between !important;
 }
 
-.form-control {
-    width: 300px !important;
-    margin-top: 10px;
+.container2{
+    display: flex;
+    justify-content:space-between;
+}
+.container2 > input{
+    width: 48%;
 }
 
 #titulo{
@@ -118,12 +119,11 @@
 }
 #enviar{
     background-color: #44e74c;
-    text-align: center !important;
     margin-top: 10px;
-    display: block !important;
     font-size: 20px;
+    width: 100%;
 }
-.footer{
+.footer {
     background-color:rgb(20, 55, 59);
 }
 .justify-content-center {
