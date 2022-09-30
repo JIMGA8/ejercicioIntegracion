@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.navbar, .honolulu{
+    background-color:rgb(59, 59, 59);
+}
+.nav-link,.navbar-brand{
+    font-size: 20px;
+}
+
+#comparTickets{
+    color:#25a342;
+}
+
+.carousel-item {
+    filter: brightness(50%);
+}
+
+#serOrador{
+    color:white;
+    border-color: white;
+}
+
+#Tickets{
+    color:white;
+    background-color:#25a342;
+}
+.parafo{
+    left: 50%;
+    padding: 0;
+    position: absolute;
+    top: 43%;
+    width: 580px;
+    color:white;
+    text-align: right;
+    margin:0;
+    font-size: 18px;
+}
+
+.oradores2{
+    text-align:center;
+    margin: 0;
+    width: 100%;
+}
+
+.oradores{
+    display: flex;
+    width: 70%;
+    margin:auto;
+    justify-content:space-around;
+    object-fit: contain;
+}
+
+.tarjeta{
+    width: 320px;
+    background-color: white;
+    border-radius:  10px 10px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: contain;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(170, 170, 170, 1);
+}
+
+.textoTajeta{
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#negocio{
+    background-color:gray;
+    border-color: gray;
+}
+
+.btn-warning, .btn-danger, .btn-primary{
+    padding: 0 !important;
+    font-size: 14px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.honolulu, .img_honolulu{
+    color: white;
+    font-size: 14px;
+    border-left:2px solid rgb(145, 145, 145);
+}
+
+.honolulu{
+    padding: 12px !important;
+}
+.row {
+    --bs-gutter-x: 1,5 !important;
+    border:2px solid rgb(145, 145, 145);
+}
+
+.container2{
+    width:45%;
+    margin: auto;
+    display: flex !important;
+    justify-content:space-between !important;
+}
+
+.form-control {
+    width: 320px !important;
+    margin-top: 10px;
+}
+#hablar{
+    width:100% !important;
+    font-size: 20px !important;
+}
+#enviar{
+    background-color: #44e74c;
+    text-align: center !important;
+    margin-top: 10px;
+    display: block !important;
+    font-size: 20px;
+}
+.footer{
+    background-color:rgb(20, 55, 59);
+}
+.justify-content-center {
+    background-color:rgb(20, 55, 59);
+    color:white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white !important;
+}
+.tamaño{
+    width: 110px;
+    text-align: center !important;
+    margin-right:20px !important;
+    margin-left: 20px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
