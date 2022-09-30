@@ -13,9 +13,6 @@
 .carousel-item {
     filter: brightness(50%);
 }
-.carousel-control-next, .carousel-control-prev {
-    z-index: -1;
-}
 
 #serOrador{
     color:white;
