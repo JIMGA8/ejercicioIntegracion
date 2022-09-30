@@ -67,8 +67,8 @@
 }
 
 #negocio{
-    background-color:gray;
-    border-color: gray;
+    background-color:gray !important;
+    border-color: gray !important;
 }
 
 .btn-warning, .btn-danger, .btn-primary{
@@ -76,6 +76,11 @@
     font-size: 14px !important;
     padding-left: 5px !important;
     padding-right: 5px !important;
+}
+
+.btn-primary{
+    background-color:rgb(0, 174, 255) !important;
+    border-color:rgb(0, 174, 255) !important;
 }
 
 .honolulu, .img_honolulu{
