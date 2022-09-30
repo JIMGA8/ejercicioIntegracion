@@ -5,9 +5,6 @@
 .navbar, .honolulu{
     background-color:rgb(59, 59, 59);
 }
-.nav-link,.navbar-brand{
-    font-size: 20px;
-}
 
 #comparTickets{
     color:#25a342;
@@ -27,15 +24,15 @@
     background-color:#25a342;
 }
 .parafo{
-    left: 50%;
+    left: 51%;
     padding: 0;
     position: absolute;
-    top: 43%;
-    width: 580px;
+    top: 44%;
+    width: 510px;
     color:white;
     text-align: right;
     margin:0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .oradores2{
@@ -83,7 +80,7 @@
 
 .honolulu, .img_honolulu{
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     border-left:2px solid rgb(145, 145, 145);
 }
 
@@ -103,7 +100,7 @@
 }
 
 .form-control {
-    width: 320px !important;
+    width: 290px !important;
     margin-top: 10px;
 }
 #hablar{
@@ -130,8 +127,8 @@
 .tamaño{
     width: 110px;
     text-align: center !important;
-    margin-right:20px !important;
-    margin-left: 20px !important;
+    margin-right:10px !important;
+    margin-left: 10px !important;
     align-items: center !important;
     justify-content: center !important;
     display: flex !important;
