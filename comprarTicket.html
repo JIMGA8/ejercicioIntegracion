@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark navbar-expand-lg bg">
+              <div class="container">
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/codoacodo.png" height="70px" alt="CodoACodo">
+                  Conf Bs As
+                </a>                  
+                <div class="justify-content-end">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Convierte en orador</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="comparTickets">Comprar Tickets</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </header>
+
+        <div class="formulario container2 mt-4 mb-2">
+          <div class="tarjetaDescuento" id="tarjetaEstudiante">
+            <h5 class="mb-3">Estudiante</h5>
+            <p>Tienen un descuento</p>
+            <h6 class="mb-3">80%</h6>
+            <p class="documentacion">* presentar documentacion</p>
+          </div>
+        
+          <div class="tarjetaDescuento" id="tarjetaTrainee">
+            <h5 class="mb-3">Trainee</h5>
+            <p>Tienen un descuento</p>
+            <h6 class="mb-3">50%</h6>
+            <p class="documentacion">* presentar documentacion</p>
+          </div>
+        
+          <div class="tarjetaDescuento" id="tarjetaJunior">
+            <h5 class="mb-3">Junior</h5>
+            <p>Tienen un descuento</p>
+            <h6 class="mb-3">15%</h6>
+            <p class="documentacion">* presentar documentacion</p>
+          </div>
+        </div>
+
+        <form class="formulario">
+            <p class="oradores2">venta</p>
+            <h1 class="oradores2">VALOR DE TICKET $200</h1>
+            <div class="container2 mt-3">
+              <input type="text" class=" form-control mr-1" id="nombre" placeholder="Nombre">
+              <input type="text" class=" form-control ml-1" id="apellido" placeholder="Apellido">
+            </div>
+            <div class="error">
+              <span id="nombreError"></span>
+              <span id="apellidoError"></span>
+            </div>
+            <div class="container2 mt-3"> 
+              <input type="email" class=" form-control ml-1" id="email" placeholder="Correo">
+            </div>
+            <div class="error">
+              <span id="emailError"></span>
+            </div>
+            <div class="container2 mt-3">
+              <label class="label">Cantidad</label>
+              <label class="label">Categoria</label>
+            </div>
+            <div class="container2 mt-1">
+              <input type="number" class=" form-control mr-1" id="cantidad" placeholder="Cantidad">
+              <select class="form-select" aria-label="Default select example" id="categoria">
+                <option selected disabled>Seleciona una Opcion</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="trainee">Trainee</option>
+                <option value="junior">Junior</option>
+                <option value="sinCategoria">Sin categoria</option>
+              </select>
+            </div>
+            <div class="error">
+              <span id="cantidadError"></span>
+              <span id="categoriaError"></span>
+            </div>
+            <div class="mt-4" id="totalPagar">Total a Pagar: $</div>
+            <div class="container2 mb-3 mt-3">
+              <button id="borrar" type="reset" class="btn btn-success" >Borrar</button>
+              <button id="resumen" type="button" class="btn btn-success">Resumen</button>
+            </div>
+        </form>
+
+          <footer>
+            <nav class="navbar justify-content-center navbar-expand-lg">
+              <div class="footer">        
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item tamaño">
+                      <a class="nav-link active" href="#">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item tamaño">
+                      <a class="nav-link active" href="#">Contáctanos</a>
+                    </li>
+                    <li class="nav-item tamaño">
+                      <a class="nav-link active" href="#">Prensa</a>
+                    </li>
+                    <li class="nav-item tamaño">
+                      <a class="nav-link active" href="#">Conferencias</a>
+                    </li>
+                    <li class="nav-item tamaño">
+                      <a class="nav-link active" href="#">Términos y condiciones</a>
+                    </li>
+                    <li class="nav-item tamaño">
+                      <a class="nav-link active" href="#">Privacidad</a>
+                    </li>
+                    <li class="nav-item tamaño">
+                      <a class="nav-link active" href="#">Estudiantes</a>
+                    </li>
+                  </ul>
+              </div>
+            </nav>
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+          <script src="js/totalPagar.js"></script>
+        </body>
+</html>
